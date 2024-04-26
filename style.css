@@ -1,0 +1,47 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #43475c;
+    font-family: url("./assets/fonts/Roboto-Regular.ttf");
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 800px; /* Adjust the width as needed */
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .container img {
+    max-width: 50%; /* Adjust the width of the image */
+  }
+  
+  .updates {
+    flex: 1; /* Allow the content to take up remaining space */
+    margin-left: 20px; /* Adjust spacing between image and content */
+    display: flex;
+    flex-direction: column; /* Set content to display vertically */
+  }
+  
+  .updates ul {
+    list-style: flex;
+    padding-left: 0;
+  }
+  
+  .updates li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* .updates img {
+    margin-right: 10px;
+  }
+   */
