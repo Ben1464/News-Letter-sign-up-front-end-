@@ -19,24 +19,26 @@ body {
     
   }
   
+  
   .container img {
     max-width: 50%; /* Adjust the width of the image */
   }
   
   .updates {
-    flex: 1; /* Allow the content to take up remaining space */
+    /* flex: 1;  */
     margin-left: 20px; /* Adjust spacing between image and content */
     display: flex;
-    flex-direction: column; /* Set content to display vertically */
+    flex-direction: column;
   }
   
+  
   .updates ul {
-    list-style: flex;
+    list-style: none;
     padding-left: 0;
   }
   
   .updates li {
-    display: flex;
+    display:flex;
     align-items: center;
     margin-bottom: 10px;
   }
